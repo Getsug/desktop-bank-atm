@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admindashboard.SettingsController">
+   <left>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #05727c;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="31.0" layoutY="225.0" mnemonicParsing="false" onAction="#resetClientPassword" style="-fx-background-color: #4DD0E1;" text="Reset Client Password" textFill="#060606" />
+            <Button layoutX="30.0" layoutY="113.0" mnemonicParsing="false" onAction="#resetAdminPassword" style="-fx-background-color: #4DD0E1;" text="ResetAdmin Password" textFill="#060606" />
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="125.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/settings.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

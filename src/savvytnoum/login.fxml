@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="savvytnoum.LoginController">
+   <children>
+      <AnchorPane layoutX="300.0" layoutY="42.0" prefHeight="316.0" prefWidth="275.0" style="-fx-background-color: #8eecf5; -fx-background-radius: 20;">
+         <children>
+            <Label fx:id="dbStatus" layoutX="110.0" layoutY="27.0" text="Status" />
+            <TextField fx:id="username" alignment="CENTER" layoutX="80.0" layoutY="121.0" promptText="Username" style="-fx-background-radius: 14;" />
+            <Label fx:id="loginStatus" layoutX="84.0" layoutY="98.0" textFill="#e50808">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="password" alignment="CENTER" layoutX="80.0" layoutY="174.0" promptText="Password" style="-fx-background-radius: 14;" />
+            <Button fx:id="loginButton" alignment="CENTER" layoutX="116.0" layoutY="213.0" mnemonicParsing="false" onAction="#Login" prefHeight="26.0" prefWidth="75.0" style="-fx-background-radius: 14; -fx-background-color: #0b8de7;" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Label layoutX="16.0" layoutY="178.0" text="Password">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label layoutX="15.0" layoutY="125.0" text="Username">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <HBox layoutX="86.0" layoutY="58.0" prefHeight="28.0" prefWidth="134.0" style="-fx-background-color: #6fdced; -fx-background-radius: 14;">
+               <children>
+                  <RadioButton fx:id="admin" mnemonicParsing="false" text="Admin" textFill="#131313">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="user" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <Region prefHeight="18.0" prefWidth="15.0" />
+                  <RadioButton fx:id="client" mnemonicParsing="false" text="Client" textFill="#131313" toggleGroup="$user">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </RadioButton>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="238.0" fitWidth="212.0" layoutX="32.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

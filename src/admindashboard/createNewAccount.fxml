@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admindashboard.CreateNewAccountController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="46.0" prefWidth="664.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="CREATE NEW ACCOUNT" textFill="#21a9c7">
+               <font>
+                  <Font name="SansSerif Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="147.0" layoutY="14.0" text="Firstname:" />
+            <TextField fx:id="firstName" layoutX="254.0" layoutY="14.0" prefHeight="25.0" prefWidth="173.0" promptText="firstname" />
+            <TextField fx:id="lastName" layoutX="254.0" layoutY="46.0" prefHeight="25.0" prefWidth="173.0" promptText="lastname" />
+            <TextField fx:id="phoneNumber" layoutX="254.0" layoutY="153.0" prefHeight="25.0" prefWidth="175.0" promptText="phone number" />
+            <TextField fx:id="email" layoutX="254.0" layoutY="188.0" prefHeight="25.0" prefWidth="177.0" promptText="email" />
+            <TextField fx:id="accountNumber" layoutX="254.0" layoutY="254.0" prefHeight="25.0" prefWidth="177.0" promptText="account number" />
+            <DatePicker fx:id="dateOfBirth" layoutX="254.0" layoutY="83.0" promptText="date of birth" />
+            <ComboBox fx:id="gender" layoutX="253.0" layoutY="119.0" onAction="#getGenderValue" prefHeight="25.0" prefWidth="176.0" promptText="Gender" />
+            <TextArea fx:id="address" layoutX="255.0" layoutY="287.0" prefHeight="49.0" prefWidth="177.0" promptText="Seoul, Hwigyeong-dong" />
+            <ComboBox fx:id="accountType" layoutX="255.0" layoutY="221.0" onAction="#getAccountTypeValue" prefHeight="25.0" prefWidth="176.0" promptText="Account type" />
+            <Label layoutX="148.0" layoutY="50.0" text="Lastname:" />
+            <Label layoutX="148.0" layoutY="87.0" text="Date of Birth:" />
+            <Label layoutX="152.0" layoutY="192.0" text="Email:" />
+            <Label layoutX="152.0" layoutY="157.0" text="Phone Number:" />
+            <Label layoutX="152.0" layoutY="258.0" text="Account Number:" />
+            <Label layoutX="152.0" layoutY="297.0" text="Address:" />
+            <Button layoutX="514.0" layoutY="316.0" mnemonicParsing="false" onAction="#addClient" text="Create Account" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

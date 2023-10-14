@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admindashboard.AdminController">
+    <top>
+        <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="11.0" layoutY="68.0" text="Dashboard" textFill="#21a9c7">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="71.0" fitWidth="69.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="/Images/logo.png" />
+                    </image>
+                </ImageView>
+                  <Label layoutX="721.0" layoutY="60.0" text="Admin" textFill="#05727c">
+                      <font>
+                          <Font name="Noto Serif Bold" size="13.0" />
+                      </font>
+                  </Label>
+            <Label layoutX="654.0" layoutY="60.0" text="Welcome" textFill="#05727c">
+               <font>
+                  <Font name="Noto Serif Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="732.0" layoutY="22.0" mnemonicParsing="false" onAction="#logout" style="-fx-background-color: #05727c;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            </children>
+        </Pane>
+    </top>
+    <left>
+        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="505.0" prefWidth="154.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="329.0" prefWidth="154.0" style="-fx-background-color: #05727c;">
+               <children>
+                      <Button mnemonicParsing="false" onAction="#createAccount" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: #4DD0E1;" text="Create New Account" textFill="#060606">
+                     <VBox.margin>
+                        <Insets left="13.0" top="50.0" />
+                     </VBox.margin>
+                      </Button>
+                      <Button mnemonicParsing="false" onAction="#clientList" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: #4DD0E1;" text="Client List" textFill="#060606">
+                     <VBox.margin>
+                        <Insets left="13.0" right="4.0" top="14.0" />
+                     </VBox.margin>
+                      </Button>
+                      <Button mnemonicParsing="false" onAction="#deposit" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: #4DD0E1;" text="Deposit" textFill="#060606">
+                     <VBox.margin>
+                        <Insets left="13.0" right="4.0" top="14.0" />
+                     </VBox.margin>
+                      </Button>
+                      <Button mnemonicParsing="false" onAction="#withdraw" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: #4DD0E1;" text="Withraw" textFill="#060606">
+                     <VBox.margin>
+                        <Insets left="13.0" right="4.0" top="14.0" />
+                     </VBox.margin>
+                      </Button>
+                      <Button mnemonicParsing="false" onAction="#transfer" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: #4DD0E1;" text="Transfer" textFill="#060606">
+                     <VBox.margin>
+                        <Insets left="13.0" right="4.0" top="14.0" />
+                     </VBox.margin>
+                      </Button>
+                      <Button mnemonicParsing="false" onAction="#settings" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: #4DD0E1;" text="Settings" textFill="#060606">
+                     <VBox.margin>
+                        <Insets left="13.0" right="4.0" top="14.0" />
+                     </VBox.margin>
+                      </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+        </VBox>
+    </left>
+    <center>
+        <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="218.0" fitWidth="214.0" layoutX="225.0" layoutY="117.0" opacity="0.63" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="/Images/logo.png" />
+                    </image>
+                </ImageView>
+            <Pane layoutX="52.0" layoutY="33.0" prefHeight="258.0" prefWidth="154.0" />
+            </children></Pane>
+    </center>
+</BorderPane>
