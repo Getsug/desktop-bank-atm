@@ -1,7 +1,7 @@
 ## Desktop Atm
 ### Project
 Login
-![Image](../assets/login-page.PNG?raw=true)
+![Image](/assets/login-page.PNG)
 
 A desktop application that simulates bank ATM operation. It utilizes an SQLite database to store data<br>
 
