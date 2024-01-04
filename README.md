@@ -4,8 +4,8 @@ Login<br>
 <img src="/assets/login-page.PNG" width="50%" /><br><br>
 Admin Page<br>
 <p float="left">
-  <img src="/assets/create-account.PNG" width=""50%" />&nbsp;&nbsp;
-  <img src="/assets/client-list.PNG" width=""50%" />
+  <img src="/assets/create-account.PNG" width="40%" />&nbsp;&nbsp;
+  <img src="/assets/client-list.PNG" width=""40%" />
 </p><br>
 
 Client Page<br>
