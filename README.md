@@ -11,13 +11,13 @@ Admin Page<br>
 
 Client Page<br>
 <p float="left">
-  <img src="/assets/create-account.PNG" width="33%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/assets/client-list.PNG" width="33%" />
+  <img src="/assets/create-account.PNG" width="33%" />&nbsp;&nbsp;&nbsp;
+  <img src="/assets/client-list.PNG" width="33%" />&nbsp;&nbsp;&nbsp;
   <img src="/assets/client-list.PNG" width="33%" />
 </p><br>
 <p float="left">
   <img src="/assets/create-account.PNG" width="33%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="/assets/client-list.PNG" width="33%" />
+  <img src="/assets/client-list.PNG" width="33%" />&nbsp;&nbsp;&nbsp;
   <img src="/assets/client-list.PNG" width="33%" />
 </p><br>
     
