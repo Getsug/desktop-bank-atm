@@ -3,9 +3,9 @@
 Login<br><br>
 <!-- ![Image](/assets/login-page.PNG) -->
 <p float="left">
-  <img src="/assets/login-page.PNG" width="33%" />
-  <img src="/assets/create-account.PNG" width="33%" />
-  <img src="/assets/client-list.PNG" width="33%" />
+  <img src="/assets/login-page.PNG" height="150" width="33%" />
+  <img src="/assets/create-account.PNG" height="150" width="33%" />
+  <img src="/assets/client-list.PNG" height="150" width="33%" />
 </p><br>
     
 
