@@ -5,7 +5,7 @@ Login<br>
 <img src="/assets/login-page.PNG" width="33%" /><br><br>
 Admin Page<br>
 <p float="left">
-  <img src="/assets/create-account.PNG" width="33%" /> &nbsp;&nbsp;
+  <img src="/assets/create-account.PNG" width="33%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="/assets/client-list.PNG" width="33%" />
 </p><br>
     
