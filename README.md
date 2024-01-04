@@ -2,10 +2,11 @@
 ### Project
 Login<br><br>
 <!-- ![Image](/assets/login-page.PNG) -->
+<img src="/assets/login-page.PNG" height="150" width="33%" /><br>
+Admin Page<br><br>
 <p float="left">
-  <img src="/assets/login-page.PNG" height="150" width="33%" />
-  <img src="/assets/create-account.PNG" height="150" width="33%" />
-  <img src="/assets/client-list.PNG" height="150" width="33%" />
+  <img src="/assets/create-account.PNG" width="33%" />
+  <img src="/assets/client-list.PNG" width="33%" />
 </p><br>
     
 
